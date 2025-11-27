@@ -1,0 +1,13 @@
+{
+  "projectId": "17da9986-971a-4c18-b855-9429cda6f111",
+  "webhookUrl": "https://rotten-sites-think.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
